@@ -1,24 +1,25 @@
 {{ "<!-- SERVICES -->" | safeHTML }}
-<section id="sponsors">
+<section class="bg-primary" id="sponsors">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.services.headline }}{{ . }}{{ end }}</h2>
+                <h2>Sponsors</h2>
+                <h3>SoftwareMill</h3>
+                <p>SoftwareMill is a Polish software-house that develops customised IT systems for companies around the world (Africa, Australia, North America, Europe). We solve IT challenges: system integration, data processing, monitoring/data analysis, workflow and business rules. We focus on efficiency and scalability of solutions. We specialise in Scala, Java and Groovy technologies.</p>
+                <p>SoftwareMill has international references in Telco & Messaging, Finance: Banking & Insurance industries, Media and Education area. We are also a partner of TypeSafe, Amazon Web Services and MongoDB. Moreover, we are currently working on a space project!</p>
+                <p>We are flat-organised company. Furthermore our team members work remotely in their home offices all around Poland: Warszawa, Kraków, Gdańsk or Bieszczady. From the very beginning SoftwareMill supports the local Java/Scala/Agile professional groups. We are speakers, organizers and sponsors of the meet-ups and conferences.</p>
+                <p>We are always looking for outstanding people: cv@softwaremill.com</p>
                 <hr class="primary">
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            {{ range .Site.Params.services.list }}
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
-                    <h3>{{ .title }}</h3>
-                    <p class="text-muted">{{ .description }}</p>
-                </div>
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Would you like to become a sponsor?</h2>
+                <a href="#contact" class="btn btn-default btn-xl">Contact us</a>
+                <hr class="primary">
             </div>
-            {{ end }}
         </div>
     </div>
 </section>

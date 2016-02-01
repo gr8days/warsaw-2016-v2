@@ -65,23 +65,23 @@ theme = "creative"
 
         [[params.services.list]]
             icon = "fa-diamond"
-            title = "Groovy internals"
-            description = "Our templates are updated regularly so they don't break."
+            title = "Groovy"
+            description = "A powerful, optionally typed and dynamic language, with static-typing and static compilation, for the JVM, aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax"
 
         [[params.services.list]]
 			icon = "fa-paper-plane"
-			title = "Grails 3.0 and beyond"
-			description = "You can use this theme as is, or you can make changes!"
+			title = "Grails"
+			description = "Web framework for the Java platform aimed at multiplying developers’ productivity thanks to a Convention-over-Configuration, sensible defaults and opinionated APIs. Integrated ORM, Domain-Specific Languages, compile-time meta-programming and Asynchronous programming."
 
 		[[params.services.list]]
             icon = "fa-newspaper-o"
-            title = "Advanced Gradle optimization"
-            description = "We update dependencies to keep things fresh."
+            title = "Gradle"
+            description = "Emerge from Build Hell today through Gradle, the modern open source polyglot build automation system. End build script chaos. End deathmarches. End bug regressions. End broken release processes."
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Spock tricks"
-            description = "You have to make your websites with love these days!"
+            title = "Spock"
+            description = "The testing and specification framework for Java and Groovy applications. Beautiful and highly expressive specification language. Compatible with most IDEs, build tools, and continuous integration servers. Inspired from JUnit, RSpec, jMock, Mockito, Groovy, Scala, Vulcans, and other fascinating life forms."
 
 
     # Portfolio modals
