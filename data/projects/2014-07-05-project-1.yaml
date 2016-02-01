@@ -1,0 +1,8 @@
+modalID: 1
+title: Let Grails 3.0 blow your mind
+date: 10:00
+img: 1.jpg
+client: Przemek Gałązka
+clientLink: "https://twitter.com/xautu "
+category: Grails
+description: o nowościach w 3.0 i migracji lub o testowaniu komponentów (bardziej dyskusja dlaczego jest ch.. i co z tym da się zrobić) o Events z użyciem Reaktor oraz websockety z Stomp i SockJS - gdyby mało to inne tematy z asynch http://grails.github.io/grails-doc/3.0.9/guide/async.html o template engine, czyli jak zassać html5 template z themeforest w 2 dni lub o profilach aplikacji a w tym  ciekawy temat - grails REST microservices as groovy scripts...

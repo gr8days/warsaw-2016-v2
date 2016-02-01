@@ -1,0 +1,15 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>{{ with .Site.Params.hero.slogan }}{{ . }}{{ end }}</h1>
+            <hr>
+            <h2>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}<br/>
+            {{ with .Site.Params.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</h2>
+            <h2>19 March 2016</h2>
+            <h2>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+            </h2>
+        </div>
+    </div>
+</header>

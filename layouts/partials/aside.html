@@ -1,0 +1,10 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>{{ with .Site.Params.aside.headline }}{{ . }}{{ end }}</h2>
+            <a href="{{ with .Site.Params.aside.button1.link }}{{ . }}{{ end }}" class="btn btn-default btn-xl wow tada">{{ with .Site.Params.aside.button1.text }}{{ . }}{{ end }}</a>
+            <a href="{{ with .Site.Params.aside.button2.link }}{{ . }}{{ end }}" class="btn btn-default btn-xl wow tada">{{ with .Site.Params.aside.button2.text }}{{ . }}{{ end }}</a>
+        </div>
+    </div>
+</aside>

@@ -1,0 +1,111 @@
+baseurl = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Gr8Day conference"
+theme = "creative"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Gr8Day Warsaw Groovy User Group"
+	description = "Gr8Day conference organized by Warsaw Groovy User Group"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Gr8Day Warsaw"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Technologies"
+			portfolio = "Agenda"
+			venue = "Venue"
+			sponsors = "Sponsors"
+			crew = "Crew"
+			contact   = "Register"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "GR8Day Warsaw"
+		subtitle   = "Gradle, Griffon, Grails, Geb, Spock, GPars..."
+		subtitle2   = "All things Groovy in one day!"
+		buttonText = "Join the conference"
+
+	# About section
+	[params.about]
+		headline    = "One day conference on all things Groovy!"
+		description1 = "Warsaw Groovy User Group invites you to a one day, mini conference on all things Groovy!"
+		description2 = "GR8Day is a spinoff of GR8Conf, an independent, affordable series of conferences in Denmark, US and now in Poland. It's dedicated to the technologies in the Groovy ecosystem."
+		description3 = "And it's free of charge!"
+		description4 = "Join us as a speaker or just come over to listen."
+		buttonText  = "Get started!"
+
+
+
+	# Service section
+	[params.services]
+		headline = "Technologies"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Groovy internals"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Grails 3.0 and beyond"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Advanced Gradle optimization"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Spock tricks"
+            description = "You have to make your websites with love these days!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Speaker"
+        date = "Time"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Join us"
+
+		[params.aside.button1]
+			text = "Register now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+		[params.aside.button2]
+			text = "Submit your talk"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Register now"
+		description = "You can also contact us via email or phone"
+		phone = "123-456-6789"
+		email = "szimano@szimano.org"

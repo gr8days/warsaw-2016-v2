@@ -1,0 +1,29 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contact">
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>{{ with .Site.Params.aside.headline }}{{ . }}{{ end }}</h2>
+                <a href="{{ with .Site.Params.aside.button1.link }}{{ . }}{{ end }}" class="btn btn-default btn-xl wow tada">{{ with .Site.Params.aside.button1.text }}{{ . }}{{ end }}</a>
+                <a href="{{ with .Site.Params.aside.button2.link }}{{ . }}{{ end }}" class="btn btn-default btn-xl wow tada">{{ with .Site.Params.aside.button2.text }}{{ . }}{{ end }}</a>
+            </div>
+        </div>
+    </aside>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <hr class="primary">
+                <p>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                <p>{{ with .Site.Params.contact.phone }}{{ . }}{{ end }}</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="mailto:{{ with .Site.Params.contact.email }}{{ . }}{{ end }}">{{ with .Site.Params.contact.email }}{{ . }}{{ end }}</a></p>
+            </div>
+        </div>
+    </div>
+</section>
