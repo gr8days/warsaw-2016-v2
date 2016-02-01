@@ -483,3 +483,27 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.venue-map {
+    height: 300px;
+    padding: 0;
+}
+.venue-map .map.embed-container {
+    position: relative;
+}
+.venue-map .map.embed-container #map-notice {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ccc;
+    padding: 8px;
+}
+.venue-map .map.embed-container .map-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.1);
+}
